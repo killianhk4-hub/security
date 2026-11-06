@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Système de sécurité : ne jamais versionner les secrets ni l'état local ---
+manifeste*.json
+journal*.log
+*.key
+*.pem
+.env
+.env.*
